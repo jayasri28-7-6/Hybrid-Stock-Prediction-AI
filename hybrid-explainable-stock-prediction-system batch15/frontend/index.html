@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hybrid Stock Prediction</title>
+
+    <!-- Tailwind CDN (optional if using vite-plugin-tailwind or PostCSS) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Poppins', 'sans-serif'],
+            },
+            colors: {
+              'gray-900': '#121212',
+              'gray-800': '#1E1E1E',
+              'gray-700': '#2D2D2D',
+              'gray-600': '#404040',
+              'gray-400': '#A0A0A0',
+              'blue-500': '#3b82f6',
+              'blue-600': '#2563eb',
+            },
+          },
+        },
+      }
+    </script>
+
+    <link rel="stylesheet" href="/index.css">
+  </head>
+  <body class="bg-gray-900 text-white">
+    <!-- React root element -->
+    <div id="root"></div>
+
+    <!-- Vite entry point (must point to src/main.tsx or src/index.tsx) -->
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

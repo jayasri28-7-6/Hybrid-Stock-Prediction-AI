@@ -1,0 +1,8 @@
+{
+  "name": "Hybrid Explainable Stock Prediction System(batch-15)",
+  "description": "A sophisticated stock prediction application using a hybrid AI model. It features a personalized dashboard, multilingual sentiment analysis, real-time predictions, and Explainable AI (XAI) insights with a sleek, dark-themed UI.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
